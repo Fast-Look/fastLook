@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>FastLook</title>
+</head>
+
+<body>
+  <nav>
+    <ul id="listNav">
+      <li class="logoNav"><a href="#">
+          <h3 class="logo">FastLook</h3>
+        </a></li>
+      <li class="itemListNav"><a href="#">Sobre</a></li>
+      <li class="itemListNav"><a href="#">Produtos</a></li>
+      <li class="itemListNav active"><a href="#">Home</a></li>
+    </ul>
+  </nav>
+  
+  <div class="parallax">
+    <div class="backParallax">
+      <h1 class="title">Produtos Toy Story com 20% de desconto</h1>
+    </div>
+  </div>
+
+  <h2 class="titleCard">Promoção Toy Story 4: </h2>
+  <div class="line"></div>
+  <ul class="slideCards">
+
+    <li class="itemSlideCards">
+      <div class="Card" onmouseover="efect(1)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/1.jpeg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>T-Shirt Buzz Lightyear</h3>
+          <p id="desc1" class="descriptionCard">
+            R$ 56,90
+          </p>
+          <button type="submit" class="buttonCard">Comprar</button>
+        </div>
+      </div>
+    </li>
+
+    <li class="itemSlideCards">
+      <div class="Card" onmouseover="efect(2)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/2.jpeg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>T-Shirt Woody</h3>
+          <p id="desc2" class="descriptionCard">
+            R$ 56,90
+          </p>
+          <button type="submit" class="buttonCard">Comprar</button>
+        </div>
+      </div>
+    </li>
+
+    <li class="itemSlideCards">
+      <div class="Card" onmouseover="efect(3)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/7.jpeg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>T-Shirt Andy</h3>
+          <p id="desc3" class="descriptionCard">
+            R$ 56,90
+          </p>
+          <button type="submit" class="buttonCard">Comprar</button>
+        </div>
+      </div>
+    </li>
+
+    <li class="itemSlideCards">
+      <div class="Card" onmouseover="efect(4)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/9.jpeg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>T-Shirt Toy Story</h3>
+          <p id="desc4" class="descriptionCard">
+            R$ 56,90
+          </p>
+          <button type="submit" class="buttonCard">Comprar</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <footer class="footer">
+    <div class="divFooter">
+      <p class="textFooter">
+        FastLook possui todos os direitos reservados.
+      </p>
+      <p class="textFooter">
+        2019 - FastLookDeveloper
+      </p>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    function efect(event) {
+      $(`#desc${event}`).css('display', 'inline');
+    }
+
+    $('.Card').mouseleave(function () {
+      $('.descriptionCard').css('display', 'none');
+    });
+  </script>
+</body>
+
+</html>
