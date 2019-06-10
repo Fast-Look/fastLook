@@ -25,7 +25,12 @@
     </ul>
   </nav>
 
-  <div class="slideCards">
+  <div class="tabNav">
+    <button class="tabNavButton" onclick="alterPage('Shirts', 'Looks')">T-shits</button>
+    <button class="tabNavButton" onclick="alterPage('Looks', 'Shirts')">Looks</button>
+  </div>
+
+  <div id="listShirts" class="slideCards">
 
     <div class="itemSlideCards">
       <div class="Card" onmouseover="efect(1)">
@@ -34,7 +39,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Buzz</h3>
-          <p id="desc1" class="descriptionCard">
+          <p class="descriptionCard desc1">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -49,7 +54,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Woody</h3>
-          <p id="desc2" class="descriptionCard">
+          <p class="descriptionCard desc2">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -64,7 +69,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Andy</h3>
-          <p id="desc3" class="descriptionCard">
+          <p class="descriptionCard desc3">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -79,7 +84,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Toy Story</h3>
-          <p id="desc4" class="descriptionCard">
+          <p class="descriptionCard desc4">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -94,7 +99,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Pizza Planet</h3>
-          <p id="desc5" class="descriptionCard">
+          <p class="descriptionCard desc5">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -109,7 +114,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Alien</h3>
-          <p id="desc6" class="descriptionCard">
+          <p class="descriptionCard desc6">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -124,7 +129,7 @@
         </div>
         <div class="articleCard">
           <h3>Moletom La Casa de Papel</h3>
-          <p id="desc7" class="descriptionCard">
+          <p class="descriptionCard desc7">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -139,7 +144,7 @@
         </div>
         <div class="articleCard">
           <h3>Moletom Harry Potter</h3>
-          <p id="desc8" class="descriptionCard">
+          <p class="descriptionCard desc8">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -154,7 +159,7 @@
         </div>
         <div class="articleCard">
           <h3>Moletom Nasa</h3>
-          <p id="desc9" class="descriptionCard">
+          <p class="descriptionCard desc9">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -169,7 +174,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Pequeno Principe</h3>
-          <p id="desc10" class="descriptionCard">
+          <p class="descriptionCard desc10">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -184,7 +189,7 @@
         </div>
         <div class="articleCard">
           <h3>Moletom Friends</h3>
-          <p id="desc11" class="descriptionCard">
+          <p class="descriptionCard desc11">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -199,7 +204,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Capitã Marvel</h3>
-          <p id="desc12" class="descriptionCard">
+          <p class="descriptionCard desc12">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -214,7 +219,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Game of Thrones</h3>
-          <p id="desc13" class="descriptionCard">
+          <p class="descriptionCard desc13">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -229,7 +234,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Game of Thrones</h3>
-          <p id="desc14" class="descriptionCard">
+          <p class="descriptionCard desc14">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -244,7 +249,7 @@
         </div>
         <div class="articleCard">
           <h3>Moletom Riverdale</h3>
-          <p id="desc15" class="descriptionCard">
+          <p class="descriptionCard desc15">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -259,7 +264,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Vingadores Ultimato</h3>
-          <p id="desc16" class="descriptionCard">
+          <p class="descriptionCard desc16">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -274,7 +279,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Vingadores Ultimato</h3>
-          <p id="desc17" class="descriptionCard">
+          <p class="descriptionCard desc17">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -289,7 +294,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Hakuna Matata</h3>
-          <p id="desc18" class="descriptionCard">
+          <p class="descriptionCard desc18">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -304,7 +309,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Rei Leão</h3>
-          <p id="desc19" class="descriptionCard">
+          <p class="descriptionCard desc19">
             R$ 62,90
           </p>
           <a href="vendas.html" class="buttonCard">Comprar</a>
@@ -313,6 +318,175 @@
     </div>
 
   </div>
+
+  <div id="listLooks" class="slideCards">
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(1)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look1.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Feminino</h3>
+          <p class="descriptionCard desc1">
+            <del>R$ 113,90</del> por R$ 87,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(2)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look2.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Feminino</h3>
+          <p class="descriptionCard desc2">
+            <del>R$ 120,90</del> por R$ 94,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(3)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look3.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Masculino</h3>
+          <p class="descriptionCard desc3">
+            <del>R$ 145,90</del> por R$ 105,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(4)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look4.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Masculino</h3>
+          <p class="descriptionCard desc4">
+            <del>R$ 124,90</del> por R$ 96,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(5)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look5.jpeg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Masculino</h3>
+          <p class="descriptionCard desc5">
+            <del>R$ 120,90</del> por R$ 95,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(6)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look6.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Feminino</h3>
+          <p class="descriptionCard desc6">
+            <del>R$ 165,90</del> por R$ 143,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(7)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look7.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Feminino</h3>
+          <p class="descriptionCard desc7">
+            R$ 176,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(8)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look8.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Feminino</h3>
+          <p class="descriptionCard desc8">
+            R$ 132,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(9)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look9.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Masculino</h3>
+          <p class="descriptionCard desc9">
+            R$ 125,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(10)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look10.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Masculino</h3>
+          <p class="descriptionCard desc10">
+            R$ 142,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlideCards">
+      <div class="Card" onmouseover="efect(11)">
+        <div class="productCard">
+          <img class="imageCard" src="./images/look11.jpg" alt="Roupa">
+        </div>
+        <div class="articleCard">
+          <h3>Look Masculino</h3>
+          <p class="descriptionCard desc11">
+            R$ 155,90
+          </p>
+          <a href="vendas.html" class="buttonCard">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="footer">
     <div class="divFooter">
       <p class="textFooter">
@@ -324,13 +498,18 @@
     </div>
   </footer>
   <script type="text/javascript">
+    function alterPage(nextPage, beforePage) {
+      $(`#list${nextPage}`).css('display', 'flex');
+      $(`#list${beforePage}`).css('display', 'none');
+    }
     function efect(event) {
-      $(`#desc${event}`).css('display', 'inline');
+      $(`.desc${event}`).css('display', 'inline');
     }
 
     $('.Card').mouseleave(function () {
       $('.descriptionCard').css('display', 'none');
     });
+
   </script>
 </body>
 

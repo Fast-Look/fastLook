@@ -106,8 +106,28 @@ body {
   background-image: linear-gradient(to right, rgb(235, 235, 235), gray, rgb(235, 235, 235));
 }
 
-.slideCards {
+.tabNav {
   display: flex;
+}
+
+.tabNavButton {
+  color: black;
+  width: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+#listLooks {
+  display: flex;
+}
+
+#listShirts {
+  display: none;
+}
+
+.slideCards {
   flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 5%;
@@ -131,6 +151,7 @@ body {
 .imageCard {
   justify-self: center;
   width: 100%;
+  height: 370px;
   margin-left: auto;
   margin-right: auto
 }
