@@ -93,8 +93,8 @@ body {
 }
 
 .titleCard {
-  margin-left: 3%;
   margin-top: 5%;
+  text-align: center;
 }
 
 .line {
@@ -118,6 +118,7 @@ body {
 }
 
 .Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 300px;
   height: 550px;
   border-style: solid;
@@ -172,9 +173,68 @@ body {
   font-size: 16px;
 }
 
+.sobreBackImage {
+  background-image: url('../images/Sobre.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.sobre {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  height: 500px; 
+}
+
+.imageSobre img{
+  width: 600px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.sobreArticle {
+  width: 500px;
+  padding-left: 25px;
+}
+
+.sobreArticle p{
+  color: white;
+  text-indent: 15pt;
+  text-align: justify;
+  font-size: 15pt;
+}
+
+.conquests {
+  display: flex;
+  margin: 50px -5px 0 -5px;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.conquestCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+/* Footer */
+
 .footer {
   background-color: black;
-  padding: 5%;
+  padding: 4%;
+  margin-top: 2%;
 }
 
 .textFooter {
