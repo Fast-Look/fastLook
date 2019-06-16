@@ -120,11 +120,11 @@ body {
 }
 
 #listLooks {
-  display: flex;
+  display: none;
 }
 
 #listShirts {
-  display: none;
+  display: flex;
 }
 
 .slideCards {

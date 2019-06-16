@@ -32,7 +32,7 @@
 
   <h2 class="titleCard">Promoção Toy Story 4</h2>
   <div class="line"></div>
-  <div class="slideCards">
+  <div id="listShirts" class="slideCards">
 
     <div class="itemSlideCards">
       <div class="Card" onmouseover="efect(1)">
@@ -41,7 +41,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Buzz</h3>
-          <p id="desc1" class="descriptionCard">
+          <p class="descriptionCard desc1">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <button type="submit" class="buttonCard">Comprar</button>
@@ -49,6 +49,7 @@
       </div>
     </div>
 
+    
     <div class="itemSlideCards">
       <div class="Card" onmouseover="efect(2)">
         <div class="productCard">
@@ -56,7 +57,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Woody</h3>
-          <p id="desc2" class="descriptionCard">
+          <p class="descriptionCard desc2">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <button type="submit" class="buttonCard">Comprar</button>
@@ -71,7 +72,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Andy</h3>
-          <p id="desc3" class="descriptionCard">
+          <p class="descriptionCard desc3">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <button type="submit" class="buttonCard">Comprar</button>
@@ -86,7 +87,7 @@
         </div>
         <div class="articleCard">
           <h3>T-Shirt Toy Story</h3>
-          <p id="desc4" class="descriptionCard">
+          <p class="descriptionCard desc4">
             <del>R$ 75,90</del> por R$ 56,90
           </p>
           <button type="submit" class="buttonCard">Comprar</button>
@@ -107,7 +108,7 @@
   </footer>
   <script type="text/javascript">
     function efect(event) {
-      $(`#desc${event}`).css('display', 'inline');
+      $(`.desc${event}`).css('display', 'inline');
     }
 
     $('.Card').mouseleave(function () {
