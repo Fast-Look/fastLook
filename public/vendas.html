@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="./css/styles.css">
   <title>FastLook</title>
 </head>
+
 <body>
-  
+
+  <nav>
+    <ul id="listNav">
+      <li class="logoNav"><a href="#">
+          <h3 class="logo">FastLook</h3>
+        </a></li>
+      <li class="itemListNav"><a href="sobre.html">Sobre</a></li>
+      <li class="itemListNav"><a href="produtos.html">Produtos</a></li>
+      <li class="itemListNav"><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <form action="produtos.html" class="form">
+    <h2 class="titleCard">Efetuar compra</h2>
+    <div class="line"></div>
+
+    <div class="alert">
+      <p>
+        <strong>OBS:</strong> Só efetuamos compras com cartão de crédito.
+      </p>
+    </div>
+
+    <div id="name" class="inputs">
+      <label for="cartao">Nome</label>
+      <input type="text" name="cartao" min="14" max="16" placeholder="Irineu">
+    </div>
+
+    <div id="name" class="inputs">
+      <label for="cartao">Sobrenome</label>
+      <input type="text" name="cartao" min="14" max="16" placeholder="Campos">
+    </div>
+
+    <div id="email" class="inputs">
+      <label for="cartao">Email</label>
+      <input type="email" name="cartao" min="14" max="16" placeholder="irineucampos@example.com">
+    </div>
+
+    <div id="email" class="inputs">
+      <label for="cartao">Endereço</label>
+      <input type="text" name="cartao" min="14" max="16" placeholder="Av. Whashington Soares, 3557, Fortaleza-CE">
+    </div>
+
+    <div class="inputs">
+      <label for="cartao">Insira o cartão</label>
+      <input type="number" name="cartao" min="14" max="16" placeholder="XXXXXXXXXXXX">
+    </div>
+
+    <div id="agency" class="inputs">
+      <label for="cartao2">Insira a agência</label>
+      <input class="agency" type="number" name="cartao2" min="3" max="6" placeholder="XXXX">
+    </div>
+
+    <input type="submit" value="Finalizar Pedido">
+
+    <div id="cartoes" class="inputs">
+      <label for="cartao2">Aceitamos os Cartões:</label>
+      <img src="./images/cartoes.png" alt="cartões">
+    </div>
+  </form>
+
+  <footer class="footer">
+    <div class="divFooter">
+      <p class="textFooter">
+        FastLook possui todos os direitos reservados.
+      </p>
+      <p class="textFooter">
+        2019 - FastLookDevelopers
+      </p>
+    </div>
+  </footer>
+
 </body>
+
 </html>

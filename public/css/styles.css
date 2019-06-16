@@ -250,6 +250,86 @@ body {
   font-size: 50px;
 }
 
+.alert {
+  margin-bottom: 2%;
+  background-color: rgba(255, 0, 0, 0.4);
+  border-radius: 10px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+}
+
+.form {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.form input {
+  border: none;
+  border-bottom: black solid 1px;
+  outline: none;
+  height: 35px;
+  width: 100%;
+  font-size: 14pt;
+  text-indent: 5pt;
+  color: rgba(0, 0, 0, 0.733);
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.form input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(56, 204, 56);
+  transition: 250ms;
+  margin: 3% 30% 3% 30%;
+  height: 50px;
+  width: 30%;
+  font-size: 14pt;
+}
+
+.form input[type="submit"]:hover {
+  transition: 250ms;
+  background-color: rgb(42, 160, 42);
+}
+
+.form img {
+  height: 150px;
+  width: 300px;
+}
+
+.inputs {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#name {
+  width: 40%;
+}
+
+#email {
+  width: 90%;
+}
+
+#agency {
+  width: 20%;
+}
+
+#cartoes {
+  width: 23%;
+}
+
 /* Footer */
 
 .footer {
