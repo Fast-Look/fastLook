@@ -283,7 +283,7 @@ body {
   width: 100%;
   font-size: 14pt;
   text-indent: 5pt;
-  color: rgba(0, 0, 0, 0.733);
+  color: rgb(0, 0, 0);
   -moz-appearance: textfield;
   appearance: textfield;
 }
@@ -336,6 +336,7 @@ body {
   min-width: 10%;
   max-width: 70%;
   padding-left: 10pt;
+  padding-right: 10pt;
   margin-bottom: 1%;
 }
 
@@ -347,6 +348,7 @@ body {
   min-width: 10%;
   max-width: 70%;
   padding-left: 10pt;
+  padding-right: 10pt;
   margin-bottom: 1%;
 }
 
