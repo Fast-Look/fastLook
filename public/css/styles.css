@@ -366,6 +366,39 @@ body {
   width: 23%;
 }
 
+.fab {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  left: 80%;
+  height: 28%;
+  bottom: 15px;
+}
+
+.fab a {
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  width: auto;
+  padding-left: 7%;
+  padding-right: 7%;
+  text-decoration: none;
+}
+
+.fabComment {
+  padding: 1%;
+  padding-left: 5%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+  border-radius: 5px;
+  border: black solid 1px;
+}
+
+
 /* Footer */
 
 .footer {
