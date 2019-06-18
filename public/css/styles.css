@@ -200,6 +200,12 @@ body {
   background-size: cover; 
 }
 
+.missaoBackImage {
+  background-image: url('../images/Mission.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
 .sobre {
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -215,7 +221,8 @@ body {
 
 .sobreArticle {
   width: 500px;
-  padding-left: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .sobreArticle p{
@@ -223,6 +230,10 @@ body {
   text-indent: 15pt;
   text-align: justify;
   font-size: 15pt;
+}
+
+.full {
+  width: 80%;
 }
 
 .conquests {
